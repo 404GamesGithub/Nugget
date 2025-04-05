@@ -31,7 +31,7 @@ jobs:
       - name: Upload ZIP (Intel)
         uses: actions/upload-artifact@v4
         with:
-          name: Nugget_macOS_intel
+          name: HorseApp_macOS_intel
           path: dist/Nugget_macOS_intel.zip
 
   build-macos-arm:
@@ -61,7 +61,7 @@ jobs:
       - name: Upload ZIP (ARM)
         uses: actions/upload-artifact@v4
         with:
-          name: Nugget_macOS_arm
+          name: HorseApp_macOS_ARM
           path: dist/Nugget_macOS_arm.zip
 
   build-windows:
@@ -91,5 +91,5 @@ jobs:
       - name: Upload ZIP (Windows)
         uses: actions/upload-artifact@v4
         with:
-          name: Nugget_Windows
+          name: HorseApp_windows
           path: dist/Nugget_Windows.zip
